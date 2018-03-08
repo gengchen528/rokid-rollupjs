@@ -1,0 +1,57 @@
+{
+  "intents": [
+    {
+      "intent": "whichSex",
+      "slots": [
+        {
+          "name": "sex1",
+          "type": "sexList"
+        }
+      ],
+      "user_says": [
+        "!我?是?$sex1",
+        "!$sex1"
+      ]
+    },
+    {
+      "intent": "relativeConfirm",
+      "slots": [
+        {
+          "name": "call2",
+          "type": "callTemplate"
+        },
+        {
+          "name": "call1",
+          "type": "callTemplate"
+        },
+        {
+          "name": "call3",
+          "type": "callTemplate"
+        },
+        {
+          "name": "call4",
+          "type": "callTemplate"
+        },
+        {
+          "name": "call5",
+          "type": "callTemplate"
+        },
+        {
+          "name": "call6",
+          "type": "callTemplate"
+        },
+        {
+          "name": "call7",
+          "type": "callTemplate"
+        },
+        {
+          "name": "call8",
+          "type": "callTemplate"
+        }
+      ],
+      "user_says": [
+        "$call1的?$call2?的?$call3?的?$call4?的?$call5?的?$call6?的?$call7?的?$call8?叫什么"
+      ]
+    }
+  ]
+}
